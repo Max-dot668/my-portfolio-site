@@ -3,11 +3,60 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.3125rem;
 }
 
 .container {
     width: 570px;
     margin: 0 auto;
+}
+
+/* Typography */
+h1, 
+h2 {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 3.75rem;
+}
+
+h2 {
+    font-size: 2.625rem;
+}
+
+h3 {
+    font-size: 2.25rem;
+    font-weight: 900;
+}
+
+.small-text {
+    font-size: 1rem;
+}
+
+.bold-text {
+    font-weight: 900;
+    display: block;
+}
+
+h1 .bold-text {
+    font-size: 5rem;
+}
+
+h2 .bold-text {
+    font-size: 3.75rem;
+}
+
+/* links */
+a {
+    color: #99D930;
+    font-weight: 900;
+}
+
+a:hover,
+a:focus {
+    color: #131313;
 }
 
 /* Images */
